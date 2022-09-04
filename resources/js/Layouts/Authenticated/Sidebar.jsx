@@ -1,6 +1,6 @@
 export default function Sidebar() {
     return (
-        <aside className="fixed z-50 w-[300px] h-screen">
+        <aside className="fixed z-50 w-64 h-screen">
 
             <div className="flex flex-col p-[30px] pr-0 border-r border-gray-[#F1F1F1] overflow-y-auto h-full">
                 <a href="/">

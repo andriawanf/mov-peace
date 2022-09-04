@@ -21,12 +21,12 @@ export default function Topbar() {
             />
             <div className="flex items-center gap-4">
                 <span className="text-black text-sm font-medium">
-                    Welcome, Granola Sky
+                    <span className="text-gray-500">Welcome,</span> Granola Sky
                 </span>
                 {/* User Avatar */}
                 <div className="collapsible-dropdown flex flex-col gap-2 relative cursor-pointer">
                     <div
-                        className="outline outline-2 outline-gray-2 p-[5px] rounded-full w-[60px] dropdown-button"
+                        className="outline outline-2 outline-gray-2 p-[5px] rounded-full w-12 dropdown-button"
                         onClick={triggerDropdown}
                     >
                         <img
