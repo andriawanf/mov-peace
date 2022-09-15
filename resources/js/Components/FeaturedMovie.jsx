@@ -1,3 +1,4 @@
+import { Link } from "@inertiajs/inertia-react";
 import PropTypes from "prop-types";
 
 FeaturedMovie.PropTypes = {
@@ -35,7 +36,7 @@ export default function FeaturedMovie({
             {/* Bottom Detail */}
             <div
                 className="absolute bottom-0 h-[100px] left-0 right-0 bg-gradient-to-t from-black rounded-bl-[28px]
-            rounded-br-[28px] flex justify-between items-center px-7 h-[130px]"
+            rounded-br-[28px] flex justify-between items-center px-7"
             >
                 <div>
                     <div className="font-medium text-[22px] text-white">
@@ -49,7 +50,7 @@ export default function FeaturedMovie({
                     <img src="/icons/ic_play.svg" width="50" alt="" />
                 </div>
             </div>
-            <a href={slug} className="inset-0 absolute z-50"></a>
+            <Link href={route('prototype.movie.show', slug)} className="inset-0 absolute z-50"></Link>
         </div>
     );
 }
