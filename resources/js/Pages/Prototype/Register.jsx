@@ -70,7 +70,7 @@ export default function Register() {
                                         Sign Up
                                     </span>
                                 </a> */}
-                <Link href={route('prototype.d ashboard')}>
+                <Link href={route('prototype.dashboard')}>
                   <Button type="button" variant="primary">
                     <span className="text-base font-semibold">Sign Up</span>
                   </Button>

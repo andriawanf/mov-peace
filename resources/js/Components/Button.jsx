@@ -1,12 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 
-Button.PropTypes = {
-    type: PropTypes.oneOf(["button", "submit", "reset"]),
-    className: PropTypes.string,
-    variant: PropTypes.oneOf(["primary", "warning", "danger", "light-outline", "white-outline"]),
-    processing: PropTypes.bool,
-    children: PropTypes.node,
+Button.propTypes = {
+    type: propTypes.oneOf(["button", "submit", "reset"]),
+    className: propTypes.string,
+    variant: propTypes.oneOf(["primary", "warning", "danger", "light-outline", "white-outline"]),
+    processing: propTypes.bool,
+    children: propTypes.node,
 }
 
 export default function Button({ 
